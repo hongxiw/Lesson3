@@ -3,8 +3,8 @@ public class Main {
     public static void main(String[] args) {
         // casting
         /*
-        int can hold 32 bytes
-        double can hold 64 bytes
+        int can hold 32 bits
+        double can hold 64 bits
         double can hold about 2^32 more values than int, allowing it to have decimals
         int can not store as much info and can not store the decimal points. int can actually store up to about 2.1 billion before overflow errors
         we can not store a double value into an int without casting it
