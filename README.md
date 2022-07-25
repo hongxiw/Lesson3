@@ -6,4 +6,4 @@ I made more sample code to demonstrate casting to types and truncating decimals 
 The previous lesson can be found [here](https://github.com/hongxiw/Lesson2).
 
 ## Next Lesson
-The next lesson can be found [here](https://github.com/hongxiw) when it is created
+The next lesson can be found [here](https://github.com/hongxiw/Lesson4).
