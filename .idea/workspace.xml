@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ceed6b31-aa77-4f8f-8433-cf0596ccd131" name="Changes" comment="Corrected info about memory size of int and double" />
+    <list default="true" id="ceed6b31-aa77-4f8f-8433-cf0596ccd131" name="Changes" comment="Updated README.md to link to next lesson" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,6 +16,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="f4a8804a-1656-494c-ac8e-2b7c12932a17" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -64,6 +67,7 @@
       <updated>1658706940665</updated>
       <workItem from="1658706942637" duration="4017000" />
       <workItem from="1658716838241" duration="145000" />
+      <workItem from="1658791010794" duration="74000" />
     </task>
     <task id="LOCAL-00001" summary="Fixed a class that didn't get committed">
       <created>1658714282377</created>
@@ -79,7 +83,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658716962988</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Updated README.md to link to next lesson">
+      <created>1658791070981</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1658791070981</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -99,6 +110,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Fixed a class that didn't get committed" />
     <MESSAGE value="Corrected info about memory size of int and double" />
-    <option name="LAST_COMMIT_MESSAGE" value="Corrected info about memory size of int and double" />
+    <MESSAGE value="Updated README.md to link to next lesson" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated README.md to link to next lesson" />
   </component>
 </project>

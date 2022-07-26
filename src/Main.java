@@ -15,6 +15,7 @@ public class Main {
         int i = (int) d
         when casting a double to an int, the decimal values will be truncated or cut off. There is no rounding. 9.9999999 casted to an int will be 9
          */
+        System.out.println("-----Casting-----");
         System.out.println("double: " + 9.1782372198);                          // prints 9.1782372198
         System.out.println("double casted to an int: " + (int) 9.1782372198);   // prints 9
         double d = 12.3456789;
@@ -44,11 +45,13 @@ public class Main {
         (int) (4.5 + 5.5) + 6.5     becomes     10 + 6.5        = 16.5
         (int) (4.5 + 5.5 + 6.5)     becomes     (int) 16.5      = 16
          */
+        System.out.println("-----Casting Expressions-----");
         System.out.println("(int) 4.5 + 5.5 + 6.5: " + (int) 4.5 + 5.5 + 6.5);
         System.out.println("(int) (4.5 + 5.5) + 6.5: " + (int) (4.5 + 5.5) + 6.5);
         System.out.println("(int) (4.5 + 5.5 + 6.5): " + (int) (4.5 + 5.5 + 6.5));
 
         // int overflow errors
+        System.out.println("-----Integer Overflow-----");
         int max = Integer.MAX_VALUE;
         int min = Integer.MIN_VALUE;
         System.out.println("Integer Max Value: " + max);
@@ -67,6 +70,7 @@ public class Main {
         Math.random() generates a value between [0, 1)
         this does not include 1
         */
+        System.out.println("-----Math.random()-----");
         System.out.println("5 Math.random(): ");
         // I chose not to use a loop to keep things simple because this is meant as a very basic beginner sample
         System.out.println(Math.random());
@@ -85,6 +89,7 @@ public class Main {
         Math.random() * 10;
         this does not include 10
          */
+        System.out.println("-----Math.random() between [0, max)-----");
         System.out.println("5 Math.random() * 10: ");
         System.out.println(Math.random() * 10);
         System.out.println(Math.random() * 10);
@@ -100,6 +105,7 @@ public class Main {
         (int) (Math.random() * 10);
         this does not include 10 and includes only whole numbers 0 through 9 inclusive
          */
+        System.out.println("-----Math.random() Integer between [0, max)-----");
         System.out.println("5 (int) (Math.random() * 10): ");
         System.out.println((int) (Math.random() * 10));
         System.out.println((int) (Math.random() * 10));
@@ -117,6 +123,7 @@ public class Main {
         (int) (Math.random() * (10 + 1));
         This includes all whole numbers from 0 to 10 inclusive;
          */
+        System.out.println("-----Math.random() Integer between [0, max]-----");
         System.out.println("5 (int) (Math.random() * (10 + 1)): ");
         System.out.println((int) (Math.random() * (10 + 1)));
         System.out.println((int) (Math.random() * (10 + 1)));
@@ -139,6 +146,8 @@ public class Main {
         Math.random() * 40 + 10;
         This will generate a value between [10, 50), not including 50
          */
+
+        System.out.println("-----Math.random() between [min, max)-----");
         System.out.println("5 Math.random() * (50 - 10) + 10: ");
         System.out.println(Math.random() * (50 - 10) + 10);
         System.out.println(Math.random() * (50 - 10) + 10);
@@ -154,6 +163,7 @@ public class Main {
         (int) (Math.random() * (50 - 10) + 10);
         This does not include 50 and includes only whole numbers from 10 to 49 inclusive
          */
+        System.out.println("-----Math.random() Integer between [min, max)-----");
         System.out.println("5 (int) (Math.random() * (50 - 10)) + 10: ");
         System.out.println((int) (Math.random() * (50 - 10)) + 10);
         System.out.println((int) (Math.random() * (50 - 10)) + 10);
@@ -171,6 +181,7 @@ public class Main {
         (int) (Math.random() * (50 - 10 + 1)) + 10;
         This includes all whole numbers from 10 to 50 inclusive
          */
+        System.out.println("-----Math.random() Integer between [min, max]-----");
         System.out.println("5 (int) (Math.random() * (50 - 10 + 1)) + 10: ");
         System.out.println((int) (Math.random() * (50 - 10 + 1)) + 10);
         System.out.println((int) (Math.random() * (50 - 10 + 1)) + 10);
